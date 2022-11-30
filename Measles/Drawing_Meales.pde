@@ -6,7 +6,7 @@ void measlesDynamic() {
   measleDiameter = 30;
   int measlesRadius = int(measleDiameter) * 1/2;
   measleX = random( rectFaceX+measlesRadius, (rectFaceX+rectFaceWidth)-measlesRadius );
-  measleY = random(appHeight);
+  measleY = random(appHeight); //smallerDimension
   
   //
   ellipse( measleX, measleY, measleDiameter, measleDiameter );
