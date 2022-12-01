@@ -1,4 +1,5 @@
 float measleX, measleY, measleDiameter;
+color measlesColour;
 //
 void measlesDynamic() {
   //
@@ -7,6 +8,7 @@ void measlesDynamic() {
   int measlesRadius = int(measleDiameter) * 1/2;
   measleX = random( rectFaceX+measlesRadius, (rectFaceX+rectFaceWidth)-measlesRadius );
   measleY = random(appHeight); //smallerDimension
+  measlesColour = color( r, g, b);
   //
   noStroke();
   ellipse( measleX, measleY, measleDiameter, measleDiameter );
