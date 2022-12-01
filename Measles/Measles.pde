@@ -2,6 +2,7 @@
 int appWidth, appHeight;
 int reset=1;
 color resetWhite=#FFFFFF;
+Boolean nightMode=false; //Basic Night Mode only changes measles
 //
 void setup() {
   //Display & Orientation
