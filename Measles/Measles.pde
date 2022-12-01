@@ -36,7 +36,7 @@ void keyPressed() {
       nightMode=false;
     }
   }
-  println(nightMode);
+  println("Night Mode Feature", nightMode);
 }//End keyPressed
 //
 void mousePressed() {
