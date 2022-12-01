@@ -1,6 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 int reset=1;
+color resetWhite=#FFFFFF;
 //
 void setup() {
   //Display & Orientation
