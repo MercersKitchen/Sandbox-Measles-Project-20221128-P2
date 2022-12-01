@@ -36,6 +36,7 @@ void keyPressed() {
       nightMode=false;
     }
   }
+  println(nightMode);
 }//End keyPressed
 //
 void mousePressed() {
